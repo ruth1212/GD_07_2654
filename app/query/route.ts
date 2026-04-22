@@ -13,6 +13,7 @@ async function listInvoices() {
   return data;
 }
 
+// for Agent
 export async function GET() {
   try {
     return Response.json(await listInvoices());
